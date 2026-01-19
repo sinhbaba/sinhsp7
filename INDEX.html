@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SINHBABA</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="STYLES/LAYOUT.css">
+<script src="SCRIPTS/jQuery.js"></script>
+<script src="SCRIPTS/script.js"></script>
+<!-- TemplateParam name="OptionalRegion1" type="boolean" value="true" -->
+<!-- TemplateParam name="OptionalRegion2" type="boolean" value="true" -->
+</head>
+
+<body>
+<!-- TemplateBeginIf cond="OptionalRegion1" -->
+<header>
+  <h2>RƯỢU VANG</h2>
+</header>
+<div class="container"><!-- TemplateBeginIf cond="OptionalRegion2" -->
+<aside class="side">
+  <div class="menu-title">Sản phẩm</div>
+  <div class="submenu"> <a href="#">Rượu vang đỏ Cabernet Sauvignon</a> <br>
+    <a href="#">Rượu chuối hột</a><br>
+    <a href="#">Rượu trắng Chardonay</a><br>
+    <a href="#">Rượu vang hồng</a><br>
+    <a href="#">Duy Rượu Đế</a></div>
+  <div class="menu-title">Dịch vụ</div>
+  <div class="submenu"> <a href="#">Hỗ Trợ Khách Hàng</a><br>
+    <a href="#">Nhắn Tin Hỗ Trợ Trực Tiếp</a></div>
+</aside>
+<!-- TemplateEndIf -->
+  <main class="content">
+    <h3>1. Ẩn / Hiện nội dung</h3>
+    <button id="toggleBtn">Xem thêm</button>
+    <div id="box">
+      <ul>
+        <li>Tuyển chọn những dòng rượu vang thượng hạng từ các vùng trồng nho nổi tiếng.</li>
+        <li>Sản phẩm nhập, đầy đủ chứng nhận nguồn gốc xuất xứ.</li>
+        <li>Cam kết bảo quản trong điều kiện tiêu chuẩn, giữ trọn hương vị nguyên bản.</li>
+        <li>Tư vấn tận tâm, giúp khách hàng chọn lựa hương vị phù hợp nhất với khẩu vị vànhu cầu.</li>
+      </ul>
+    </div>
+    <h3>2. Chuyển nội dung bằng Tab</h3>
+    <div class="tabs">
+      <div class="tab-buttons">
+        <button data-tab="tab1">Giới thiệu</button>
+        <button data-tab="tab2">Hình ảnh</button>
+        <button data-tab="tab3">Thông Tin Liên hệ</button>
+      </div>
+      <div id="tab1" class="tab-content active">
+        <h3>SINHBABA</h3>
+        <p>Chuyên về các loại Rượu ngon nhất thế giới</p>
+        <img src="IMAGES/tải xuống (1).jfif"> </div>
+      <div id="tab2" class="tab-content">
+        <h3>Danh sách ảnh</h3>
+        <div class="w3-flex" style="gap:50px">
+          <div><img src="IMAGES/tải xuống (1).jfif"></div>
+          <div><img src="IMAGES/tải xuống.jfif"></div>
+          <div><img src="IMAGES/tải xuống.webp" width="250" height="200"></div>
+          <div><img src="IMAGES/OIF.webp" width="250" height="200"></div>
+          <div><img src="IMAGES/th.webp" width="250"></div>
+        </div>
+      </div>
+      <div id="tab3" class="tab-content">
+        <p>Hotline:0333333333</p>
+        <p>Email:diephoangsinh@gmail.com</p>
+        <P>Facebook:Diệp Sinh</P>
+      </div>
+    </div>
+  </main>
+</div>
+<!-- TemplateEndIf -->
+</body>
+</html>
